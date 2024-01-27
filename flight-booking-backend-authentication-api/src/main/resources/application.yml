@@ -1,0 +1,76 @@
+
+#wsrwohkrrzumdwbx
+
+#spring:
+#  mail:
+#    host: smtp.gmail.com
+#    username: hannahsra012@gmail.com
+#    password: your_email_password
+#    port: 587
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+
+
+#
+#spring:
+#  profiles:
+#    active: dev
+#  application:
+#    name: flight-booking
+#
+#---
+#
+#spring:
+#  profiles: dev
+#  datasource:
+#    username: root
+#    url: jdbc:mysql://localhost:3306/flight-booking
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#welcome:
+#  message: Spring Boot Project For Flight Booking Authentication Api
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#        exclude: "env,bean"
+#
+#---
+#
+#spring:
+#  profiles: qa
+#  datasource:
+#    username: root
+#    url: jdbc:mysql://localhost:3306/flight-booking
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#welcome:
+#  message: Spring Boot Project For Flight Booking Authentication Api
+#
+#---
+#
+#spring:
+#  profiles: prod
+#  datasource:
+#    username: root
+#    url: jdbc:mysql://localhost:3306/flight-booking
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#welcome:
+#  message: Spring Boot Project For Flight Booking Authentication Api
+#
+#
