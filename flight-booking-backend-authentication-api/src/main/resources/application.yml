@@ -1,20 +1,4 @@
 
-#wsrwohkrrzumdwbx
-
-#spring:
-#  mail:
-#    host: smtp.gmail.com
-#    username: hannahsra012@gmail.com
-#    password: your_email_password
-#    port: 587
-#    properties:
-#      mail:
-#        smtp:
-#          auth: true
-#          starttls:
-#            enable: true
-
-
 #
 #spring:
 #  profiles:
