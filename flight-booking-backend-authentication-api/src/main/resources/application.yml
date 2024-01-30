@@ -1,4 +1,16 @@
 
+#spring:
+#  mail:
+#    host: 
+#    username: 
+#    password: 
+#    port: 
+#    properties:
+#      mail:
+#        smtp:
+#          auth: 
+#          starttls:
+#            enable: 
 #
 #spring:
 #  profiles:
